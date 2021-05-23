@@ -43,6 +43,7 @@ API Documentation
     [POST] => {{siteUrl}}/api/auth/login
     header {
         "Content-Type": "application/json"
+        "Accept": "application/json"
     }
 	
 	/* 
@@ -61,6 +62,7 @@ API Documentation
     [POST] => {{siteUrl}}/api/auth/logout
     header {
         "Content-Type": "application/json",
+        "Accept": "application/json",
         "Authorization": "Bearer <token>"
     }
 ```
@@ -75,6 +77,7 @@ API Documentation
     [GET] => {{siteUrl}}/api/categories
     header {
         "Content-Type": "application/json",
+        "Accept": "application/json",
         "Authorization": "Bearer <token>"
     }
 ```
@@ -85,6 +88,7 @@ API Documentation
     [POST] => {{siteUrl}}/api/categories
     header {
         "Content-Type": "application/json",
+        "Accept": "application/json",
         "Authorization": "Bearer <token>"
     }
 
@@ -99,6 +103,7 @@ API Documentation
     [PUT] => {{siteUrl}}/api/categories/{id}
     header {
         "Content-Type": "application/json",
+        "Accept": "application/json",
         "Authorization": "Bearer <token>"
     }
 
@@ -113,6 +118,7 @@ API Documentation
     [DELETE] => {{siteUrl}}/api/categories/delete/{id}
     header {
         "Content-Type": "application/json",
+        "Accept": "application/json",
         "Authorization": "Bearer <token>"
     }
 ```
@@ -128,6 +134,7 @@ API Documentation
     [GET] => {{siteUrl}}/api/items
     header {
         "Content-Type": "application/json",
+        "Accept": "application/json",
         "Authorization": "Bearer <token>"
     }
 ```
@@ -138,6 +145,7 @@ API Documentation
     [POST] => {{siteUrl}}/api/items
     header {
         "Content-Type": "application/json",
+        "Accept": "application/json",
         "Authorization": "Bearer <token>"
     }
 
@@ -154,6 +162,7 @@ API Documentation
     [PUT] => {{siteUrl}}/api/items/{id}
     header {
         "Content-Type": "application/json",
+        "Accept": "application/json",
         "Authorization": "Bearer <token>"
     }
 
@@ -170,6 +179,7 @@ API Documentation
     [DELETE] => {{siteUrl}}/api/items/{id}
     header {
         "Content-Type": "application/json",
+        "Accept": "application/json",
         "Authorization": "Bearer <token>"
     }
 ```
@@ -184,6 +194,7 @@ API Documentation
     [POST] => {{siteUrl}}/api/transactions/in
     header {
         "Content-Type": "application/json",
+        "Accept": "application/json",
         "Authorization": "Bearer <token>"
     }
 
@@ -200,6 +211,7 @@ API Documentation
     [POST] => {{siteUrl}}/api/transactions/out
     header {
         "Content-Type": "application/json",
+        "Accept": "application/json",
         "Authorization": "Bearer <token>"
     }
 
@@ -220,6 +232,7 @@ API Documentation
     [POST] => {{siteUrl}}/api/reports/stock
     header {
         "Content-Type": "application/json",
+        "Accept": "application/json",
         "Authorization": "Bearer <token>"
     }
     
@@ -238,6 +251,7 @@ API Documentation
     [POST] => {{siteUrl}}/api/reports/incoming
     header {
         "Content-Type": "application/json",
+        "Accept": "application/json",
         "Authorization": "Bearer <token>"
     }
     
@@ -256,6 +270,7 @@ API Documentation
     [POST] => {{siteUrl}}/api/reports/outcoming
     header {
         "Content-Type": "application/json",
+        "Accept": "application/json",
         "Authorization": "Bearer <token>"
     }
     
